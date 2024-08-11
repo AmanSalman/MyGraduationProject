@@ -1,0 +1,40 @@
+/* App.css */
+
+
+
+
+.btn-outline-primary {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.accordion-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.accordion-button.collapsed {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-body {
+  background-color: #f8f9fa;
+}
+
+.accordion-body p {
+  margin-bottom: 5px;
+}
+
+.accordion-item {
+  border: none;
+}
+
+.accordion-header {
+  margin-bottom: 5px;
+}

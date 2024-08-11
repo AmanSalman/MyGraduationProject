@@ -1,0 +1,42 @@
+.dropdown {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url('data:image/svg+xml;utf8,<svg fill="black" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>') no-repeat right 10px center;
+    background-color: white;
+    border: 1px solid #ced4da;
+    padding-right: 30px; 
+  }
+  
+  .form-control.mb-3.dropdown {
+    display: inline-block;
+    width: auto;
+  }
+
+  .search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .search-container select {
+    width: 35% !important;
+  }
+  .search-container input {
+    width: 50% !important;
+  }
+
+  
+  /* text's colors */
+
+  .text-yellow {
+    color: yellow !important;
+  }
+
+  .text-orange {
+    color: orange;
+  }
+
+  

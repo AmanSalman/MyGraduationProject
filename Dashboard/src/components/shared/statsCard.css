@@ -1,0 +1,36 @@
+.stats-card {
+    background-color: white;
+    border-radius: 18px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    /* width: 250px; */
+    height: 200px;
+  }
+
+  .stats-card__title {
+    font-size: 20px;
+    /* font-weight: bold; */
+    margin-bottom: 10px;
+  }
+
+  .stats-card__number {
+    font-size: 32px;
+    color: #333;
+  }
+
+  .stats-card__change {
+    font-size: 14px;
+    color: #888;
+  }
+
+  /* .card-icon{
+    color: #333;
+    transition: color .4s;
+  }
+  .card-icon:hover{
+    color:#00b1eb ;
+  } */

@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+body, *{
+	font-family: "Montserrat", sans-serif; 
+	text-decoration: none !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles for the container */
+.container {
+	display: flex;
+	flex-direction: column;
+	padding: 2rem;
+	border-radius: 10px;
+	flex-grow: 1;
+	width: 100%;
+  background-color: white;
+  }
+  
+  
+  /* Styles for the input */
+  input, select, textarea {
+	height: 40px;
+	width: 60% !important;
+	margin-bottom: 10px;
+	padding: 0 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	font-size: 16px;
+	outline: none;
+  }
+
+  textarea {
+    height: 5rem;
+    padding: 1rem 1rem;
+  }
+
+  @media (max-width:500px) {
+	input, select, textarea {
+        width: 100% !important;
+    }
+  }
+  
+  /* Styles for the button */
+  .button {
+	height: auto;
+	background-color: #00B1EB !important;
+	border: none !important;
+	border-radius: 9px !important;
+	cursor: pointer !important;
+	color: white !important;
+	font-weight: 400;
+	width: fit-content !important;
+	padding: 10px 10px 10px 10px  !important;
+	margin-left: 5px !important;
+  transition: all .3s;
+  text-decoration: none !important;
+  }
+  
+
+/*============ table design ============*/
+
+.generaltable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5em;
+  }
+
+  
+  .generaltable th, .generaltable td {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .generaltable th {
+    background-color: var(--main-color);
+    color:  var(--white-color-);
+  }
+  
+  .generaltable tbody tr {
+    background-color: var(--main-color-white);
+  }
+  
+  .generaltable tbody tr:hover {
+    background-color:rgb(243, 246, 247);
+  }
+
+  .table-container {
+    border-radius: 18px;
+    overflow-x: auto;
+  }
+  
+
+
+/*============ Design System ============*/
+:root{
+	--main-color:#00B1EB;
+	--main-color-white:#ffffff;
+}
+
+/*============ Text and Background colors ============*/
+.main-color-bg {
+	background-color: var(--main-color)!important;
+}
+
+.main-color-text {
+	color: var(--main-color)!important;
+}
+
+.white-color-text {
+	color: var(--main-color-white)!important;
+}
+
+.dancing-font {
+  font-family: "Dancing Script", cursive;
+}
+
+.pagination {
+	flex-direction: row;
+}
+
+.pagination-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*============ Fix the file Input appearance ============*/
+input[type=file] {
+    outline: none !important;
+    height: 5rem !important;
+    padding:1rem !important;
+}
+
+input[type=file]::file-selector-button {
+    margin-right: 20px;
+    background: var(--main-color);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+}
+
+input[type=file]::file-selector-button:hover, .button:hover {
+    background: #176d8a !important;
+}
+
+input[type="file" i]  {
+  color: var(--main-color) !important;
+}
+
+/**/
+
+.component-container {
+	background-color: white;
+    border-radius: 18px;
+	padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.container-cards {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.container-cards .card {
+  width: 18rem;
+}
+
+
+/*============ Fix the error component ============*/
+
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.arrowback-pages {
+  font-size: 2rem;
+}
+
+.container .arrow, .component-container .arrow, .arrow-button .arrow {
+  width: fit-content;
+  border: 1px solid #d1d1d1;
+  border-radius: 50%;
+  padding: 3px;
+  margin-bottom: 1rem;
+}
+
+
+/* Order */
+
+.arrow-button {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: .5rem;
+}
+
+.confirm-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+
+.required {
+  color: red;
+  margin-left: 2px;
+}

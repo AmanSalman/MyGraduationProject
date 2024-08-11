@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+button {
+    background-color: transparent ;
+}
+.containercustom {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: 100vh;
+}
+
+.child {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 1rem !important;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.Dashboardsec1, .Dashboardsec2 {
+    margin-bottom: 2rem;
+}
+
+.DashTitle {
+    color: #CDD1D7;
+    font-size: 1.2rem;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+}
+
+
+.Dashboardsec2 ul li, .Dashboardsec1 ul li {
+    margin-bottom: 0.4rem;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    width: 100%;
+    /* background-color: rgb(163, 163, 214); */
+    background-color: #00B1EB;
+    font-size: 1.1rem;
+    position: relative;
+}
+
+.Dashboardsec1 ul li a, .Dashboardsec2 ul li a {
+    /* color: #3B4554; */
+    color: white;
+    text-decoration: none;
+}
+
+
+.content {
+    padding: 2rem 2rem;
+    /* background-color: rgb(207, 207, 207); */
+    background-color: #ecf0f0;
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 499px) {
+    .containercustom {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .Dashboardsec2 ul li, .Dashboardsec1 ul li {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 884px) {
+    .containercustom {
+        display: grid;
+        grid-template-columns: 40% auto;
+    }
+
+    .Dashboardsec2 ul li, .Dashboardsec1 ul li {
+        font-size: 1rem;
+    }
+}
+
+
+
+/* .dropdown-menu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.dropdown-menu.show {
+    max-height: 500px; 
+}
+
+.dropdown-menu li {
+    width: auto;
+    padding: 1rem;
+    background-color: rgb(220, 220, 255);
+} */
+
+
+
+
+
+/* icon styling */
+
+.DashIcon {
+    color: white;
+    font-size: 1.4rem;
+    margin-right: .5rem;
+}
+
+.logo-img img{
+    width: 100px;
+    border: rgb(163, 163, 214) solid 1px; 
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
