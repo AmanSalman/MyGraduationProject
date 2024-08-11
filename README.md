@@ -98,3 +98,8 @@ Our graduation project involves the development of a custom software solution ai
 
 Once the servers are running, The backend services will be available at `http://localhost:3000`. The admin dashboard can be accessed from `http://localhost:5173`.
 
+
+## API Documentation
+
+You can find the API documentation and Postman collection [here](https://documenter.getpostman.com/view/30950345/2sA3Bt1Ugg).
+
