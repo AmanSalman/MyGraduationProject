@@ -103,3 +103,5 @@ Once the servers are running, The backend services will be available at `http://
 
 You can find the API documentation and Postman collection [here](https://documenter.getpostman.com/view/30950345/2sA3Bt1Ugg).
 
+![Postman Icon](https://upload.wikimedia.org/wikipedia/commons/6/6a/Postman_logo.png)
+
