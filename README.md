@@ -63,7 +63,7 @@ Our graduation project involves the development of a custom software solution ai
     For the frontend:
 
     ```bash
-    cd ../FrontEndSide
+    cd FrontEndSide
     npm install
     ```
 
@@ -83,14 +83,14 @@ Our graduation project involves the development of a custom software solution ai
     For the frontend:
 
     ```bash
-    cd ../FrontEndSide
+    cd FrontEndSide
     npm run start 
     ```
 
    For the Dashboard:
 
     ```bash
-    cd ../Dashboard
+    cd Dashboard
     npm run dev 
     ``` 
 
