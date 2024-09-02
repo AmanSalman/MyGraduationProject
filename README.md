@@ -4,16 +4,6 @@
 
 **Curious Minds World** is a custom software solution developed for a local small business to streamline their inventory management process and significantly improve efficiency. The project includes a comprehensive system for managing inventory, purchasing books, and an admin dashboard for overseeing operations.
 
-## Table of Contents
-
-- [Project Description](#project-description)
-- [Technologies Used](#technologies-used)
-- [Folder Structure](#folder-structure)
-- [Installation Instructions](#installation-instructions)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Project Description
 
 Our graduation project involves the development of a custom software solution aimed at enhancing the efficiency of a local small business's inventory management system. The key objectives were to:
